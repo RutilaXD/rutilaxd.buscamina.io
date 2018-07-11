@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Piedra papel tijera</title>
+	<script type="text/javascript" src="js/bomba.js"></script>
+	<style type="text/css">
+		body {background: #939396; text-align: center;}
+		h1 {font-family: arial; color: #ebefe1;}
+		input[type="button"]{
+			padding: 8px;
+			width: 25%;
+			font-family: sans-serif;
+			background-color: #1b3557;
+		    color: white;
+		    border-radius: 5px;
+		    border-style: none;
+			margin-top: 1%;
+		}
+
+		input[type="button"]:hover{
+			box-shadow: 1px 1px 0px black;
+			font-weight: 700;
+		}
+	</style>
+</head>
+<body>
+	<h1>Buscaminas</h1>
+	<h1>Solo tienes una oportunidad de ganar o perder. <br> Selecciona iniciar y vive la experiencia</h1>
+	<div id="caja"></div>
+	<input type="button" value="Iniciar" id="btn" onclick="start();">
+</body>
+</html>
